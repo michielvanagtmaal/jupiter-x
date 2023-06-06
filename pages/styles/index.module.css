@@ -1,0 +1,558 @@
+.imageWrapper {
+    position: absolute;
+    top: 45px;
+    right: -645px;
+    width: 100%;
+    z-index: 0;
+
+}
+
+
+
+.pageWrapper {
+
+    position: relative;
+    background-color: #070707;
+
+
+}
+
+.hero {
+    padding-top: 100px;
+    margin-left: 350px;
+    
+
+
+}
+
+
+
+.title {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 1;
+    background-color: #ffffff00;
+
+}
+
+.video {
+    color: #7a7a7a;
+    background-color: #ffffff00;
+    font-family: Roboto Slab;
+}
+
+.production {
+    color: #7a7a7a;
+}
+
+.hero p {
+    margin-top: -20px;
+    font-size: 16px;
+    color: #7a7a7a;
+    width: 41%;
+    line-height: 24px;
+    
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 380px;
+    width: 63%;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 25px 25px; 
+  background-color: rgba(255, 0, 0, 0);
+  grid-template-areas: 
+    "one two two"
+    "one two two"
+    "three four five"
+    "six six five"
+    "seven seven eight"
+    "seven seven nine"; 
+}
+
+
+#one {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750px;
+    background-size: cover;
+
+
+}
+
+.centered {
+   background-color: #ffffff00;
+   top: 50%;
+   position: relative;
+   transform: translateY(-50%);
+
+}
+
+#clientTitle {
+    text-transform: uppercase;
+    background-color: #ffffff00;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+#client {
+    text-transform: uppercase;
+    background-color: #ffffff00;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+#two {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750px;
+
+
+    background-size: cover;
+
+
+}
+
+#three {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+    
+    background-size: cover;
+
+
+}
+
+
+#four {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+    
+    background-size: cover;
+
+
+}
+
+#five {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+  
+    background-size: cover;
+
+}
+
+#six {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+
+    background-size: cover;
+}
+
+#seven {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+    
+    background-size: cover;
+}
+
+#eight {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+    
+    background-size: cover;
+}
+
+#nine {
+    background-image: url("https://jupiterx.artbees.net/video-production/wp-content/uploads/sites/215/2019/02/portfolio-9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 750/2px;
+
+    
+    background-size: cover;
+}
+
+
+#one { grid-area: one; }
+
+#two { grid-area: two;}
+
+#three { grid-area: three;}
+
+#four { grid-area: four;}
+
+#five { grid-area: five;}
+
+#six { grid-area: six;}
+
+#seven { grid-area: seven;}
+
+#eight { grid-area: eight;}
+
+#nine { grid-area: nine;}
+
+
+
+.container2 {
+    margin-left: 280px;
+    display: grid; 
+    margin-top: 330px;
+  grid-template-columns: 300px 530px 490px; 
+  grid-template-rows: 300px 300px 300px; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    "een twee drie"
+    "vier vier vijf"
+    "vier vier zes"; 
+}
+.een { grid-area: een;}
+.twee { grid-area: twee; margin-left: 30px;
+    margin-top: -180px; }
+.drie { grid-area: drie; margin-left: 100px; margin-top: -200px; }
+.vier { grid-area: vier; }
+.vijf { grid-area: vijf; margin-left: 100px; margin-top: -175px; }
+.zes { grid-area: zes; margin-left: 100px; margin-top: -155px;}
+
+
+.een h2 {
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-family: Montserrat;
+    line-height: 37px;
+    font-size: 42px;
+    width: 440px;
+    background-color: #ffffff00;
+}
+
+.twee p {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    
+}
+
+.drie h2 {
+    margin-left: 50px ;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+.drie p {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+}
+
+.drie li {
+    font-family: Roboto;
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 23px;
+    list-style-type: none;
+  position: relative;
+  text-transform: capitalize;
+  margin-left: -10px;
+}
+
+.drie ul {
+    margin-top: 40px;
+}
+
+.drie li:before {
+  content: "\203A";
+  position: absolute;
+  left: -30px;
+  width: 30px;
+}
+
+.vier {
+    background-image: url("https://devasw7xy5fu5.cloudfront.net/video-production/wp-content/uploads/sites/215/elementor/thumbs/camera-man-o3rb8ex4xi46h5bekshrf51utna1ye0ox2dsjk0um8.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1079px;
+    display: block;
+    margin-left: -270px;
+
+    margin-top: -103px;
+}
+
+
+
+.vijf h2 {
+    margin-left: 20px ;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    
+}
+
+.vijf p {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+}
+
+.vijf li {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 23px;
+    list-style-type: none;
+  position: relative;
+  text-transform: capitalize;
+  margin-left: -10px;
+}
+
+.vijf ul {
+    margin-top: 40px;
+}
+
+
+.vijf li:before {
+  content: "\203A";
+  position: absolute;
+  left: -30px;
+  width: 30px;
+
+}
+
+
+.zes h2 {
+    margin-left: 20px ;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    
+}
+
+.zes p {
+    color: #7a7a7a;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.zes li {
+    color: #7a7a7a;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    list-style-type: none;
+  position: relative;
+  text-transform: capitalize;
+  margin-left: -10px;
+}
+
+.zes ul {
+    margin-top: 40px;
+}
+
+.zes li:before {
+  content: "\203A";
+  position: absolute;
+  left: -30px;
+  width: 30px;
+
+}
+
+.container3 {
+    margin-left: 380px;
+    margin-top: 230px;
+    width: 78%;
+}
+
+.container3 h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 61px;
+    width: 70%;
+    font-family: Roboto;
+}
+
+.container3 p {
+    color: #7a7a7a;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    width: 53%;
+    margin-bottom: 80px;
+}
+
+
+.container4 {  
+    margin-left: -35px;
+    width: 90%;
+    padding-bottom: 500px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LOGO1 LOGO2 LOGO3 LOGO4"
+    "LOGO5 LOGO6 LOGO7 LOGO8";
+}
+
+.LOGO1 { grid-area: LOGO1; }
+
+.LOGO2 { grid-area: LOGO2; }
+
+.LOGO3 { grid-area: LOGO3; }
+
+.LOGO4 { grid-area: LOGO4; }
+
+.LOGO5 { grid-area: LOGO5; }
+
+.LOGO6 { grid-area: LOGO6; }
+
+.LOGO7 { grid-area: LOGO7; }
+
+.LOGO8 { grid-area: LOGO8; }
+
+.logo1 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/people-care.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.logo2 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/strong.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo3 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/swiss-made.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo4 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/technology-systems.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo5 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/venice-beach.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.logo6 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/cloud-mining.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.logo7 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/delivery.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo8 {
+
+    height: 150px;
+    width: 310px;
+    display: inline-block;
+
+    background-image: url("https://jupiterx.artbees.net/creative-production-agency/wp-content/uploads/sites/215/2019/02/pariatur.png?x56547");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
